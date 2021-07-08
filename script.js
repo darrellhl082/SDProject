@@ -114,7 +114,7 @@
  gsap.to('.header .title3', {
      duration: 1,
      delay: 1.5,
-     text: 'MEMORY'
+     text: 'MEMORIES'
  })
  gsap.from('.header .title2', {
      duration: 0.75,
