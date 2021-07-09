@@ -1,7 +1,4 @@
-/* body {
-    height: 100vh;
-    overflow: hidden;
-} */
+
 
 .content {
     overflow: hidden;
@@ -106,7 +103,17 @@ h3 {
 .photoLine .row1,
 .photoLine .row2 {
     width: 2600px;
+}
 
+.photoLine .rw {
+    margin-left: -50rem;
+    padding-right: 0;
+    transition: 10s;
+}
+
+.photoLine3 .row {
+    padding-left: 0;
+    padding-right: 4rem;
 }
 
 .photoLine,
@@ -122,13 +129,6 @@ h3 {
     width: 500px;
 }
 
-.appear {
-    background-color: rgba(0, 0, 0, 0.75);
-    width: 100vw;
-    height: 100vh;
-    z-index: 9999;
-    padding-top: 10vh;
-}
 
 
 @media (min-width: 767.98px) {
@@ -303,24 +303,7 @@ h3 {
     padding: 0;
 }
 
-@media(max-width: 767.98px) {
-    video {
-        width: 100%;
-        border: 5px solid white;
-    }
 
-    video {
-        display: block;
-    }
-}
-
-
-@media(min-width: 767.98px) {
-    video {
-        display: none;
-    }
-
-}
 
 /* Animation */
 
@@ -329,7 +312,8 @@ h3 {
 
 }
 
-.first-content-animate {
-    transform: translate(0, -200vh);
-    transition: 4s;
+.photoLine-animate1 {
+    transform: translate(50rem, 0);
+    transition: 10s;
+
 }
